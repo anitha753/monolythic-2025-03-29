@@ -1,0 +1,5 @@
+- name: getting code from github
+  git:
+    repo: https://github.com/anitha753/monolythic-2025-03-29.git
+    dest: /var/www/html/
+    version: frontend

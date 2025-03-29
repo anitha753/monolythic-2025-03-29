@@ -1,0 +1,10 @@
+--- 
+- hosts: dev
+  user: ec2-user
+  become: yes
+  connection: ssh
+  
+  roles:
+    - dependencies
+    - webservers
+    - code
